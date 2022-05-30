@@ -29,15 +29,40 @@ document.querySelector('#close-my-cart-btn').onclick = () =>{
 //add to cart
 let addCartForm = document.querySelector('.add-cart-container');
 
-document.querySelector('#add-cart-btn').onclick = () =>{
+document.querySelector('#add-cart-btn1').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn2').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn3').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn4').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn5').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn6').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn7').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn8').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn9').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+document.querySelector('#add-cart-btn10').onclick = () =>{
   addCartForm.classList.toggle('active');
 }
 
 document.querySelector('#close-add-cart-btn').onclick = () =>{
   addCartForm.classList.remove('active');
 }
-
-
 
 window.onscroll = () =>{
 
