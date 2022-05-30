@@ -3,6 +3,7 @@ searchForm = document.querySelector('.search-form');
 document.querySelector('#search-btn').onclick = () =>{
   searchForm.classList.toggle('active');
 }
+// login form 
 
 let loginForm = document.querySelector('.login-form-container');
 
@@ -13,6 +14,30 @@ document.querySelector('#login-btn').onclick = () =>{
 document.querySelector('#close-login-btn').onclick = () =>{
   loginForm.classList.remove('active');
 }
+
+// my cart from 
+let myCartForm = document.querySelector('.my-cart-container');
+
+document.querySelector('#my-cart-btn').onclick = () =>{
+  myCartForm.classList.toggle('active');
+}
+
+document.querySelector('#close-my-cart-btn').onclick = () =>{
+  myCartForm.classList.remove('active');
+}
+
+//add to cart
+let addCartForm = document.querySelector('.add-cart-container');
+
+document.querySelector('#add-cart-btn').onclick = () =>{
+  addCartForm.classList.toggle('active');
+}
+
+document.querySelector('#close-add-cart-btn').onclick = () =>{
+  addCartForm.classList.remove('active');
+}
+
+
 
 window.onscroll = () =>{
 
